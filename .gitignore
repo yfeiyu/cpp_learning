@@ -1,0 +1,9 @@
+*
+!.gitignore
+!*.cpp
+!*.cc
+!*.c
+!*.h
+!*.md
+!.txt
+!*/
