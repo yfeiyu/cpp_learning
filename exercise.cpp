@@ -17,14 +17,15 @@ int main(int argc, char const *argv[])
     string s = static_cast<string>(pc);
     string str(pc);
 
-    int a[5] = { 1, 3, 2, 4, 6 };
-    for (int i : a)
-        cout << i << " ";
-    cout << endl;
-
     shared_ptr<int> p3 = make_shared<int>(42);
     shared_ptr<string> p4 = make_shared<string>(10, '9');
     shared_ptr<int> p5 = make_shared<int>();
+
+    vector<ushort> alist;
+    double a = -5.0;
+    alist.push_back(a * 10);
+    cout << alist[0] << endl;
+    cout << ushort(a * 10) << endl;
     return 0;
 }
 
